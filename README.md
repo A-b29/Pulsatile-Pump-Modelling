@@ -2,7 +2,7 @@
 
 A comprehensive computational fluid dynamics (CFD) simulation of pulsatile blood flow through the heart, combining cardiac physiology with fluid mechanics to model and visualize hemodynamic behavior.
 
-## 📋 Project Overview
+##  Project Overview
 
 This project models the pulsatile (rhythmic) flow of blood through the cardiovascular system during a complete cardiac cycle. It integrates realistic cardiac physiology parameters with computational fluid dynamics to simulate:
 
@@ -19,7 +19,7 @@ This project was developed for the **Fluid Mechanics for Medical Scientists** co
 - Diagnosing cardiovascular diseases
 - Optimizing drug delivery mechanisms
 
-## 🎯 Methodology
+##  Methodology
 
 ### Approach
 
@@ -66,7 +66,7 @@ The cardiac cycle is divided into four phases, each with specific duration and c
 3. **Isovolumetric Relaxation** (10% of cycle): Ventricular pressure drops with constant volume
 4. **Filling** (50% of cycle): Ventricle refills with blood returning from circulation
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Requirements
 
@@ -105,7 +105,7 @@ This will display a 6-panel visualization showing:
 - **Bottom-middle**: Reynolds number evolution
 - **Bottom-right**: Wall shear stress evolution
 
-## 📊 Project Structure
+##  Project Structure
 
 ```
 Pulsatile-Pump-Modelling/
@@ -146,7 +146,7 @@ Entry point that orchestrates the simulation by:
 - `update(frame)`: Updates all six visualization panels for each animation frame
 - `animate()`: Runs the animation with 800 frames at 40 ms intervals
 
-## 📈 Physical Insights
+##  Physical Insights
 
 The simulation demonstrates several important cardiovascular concepts:
 
@@ -156,7 +156,7 @@ The simulation demonstrates several important cardiovascular concepts:
 4. **PV Loop Area**: Represents the work done by the heart during one cycle
 5. **Velocity Profile**: Parabolic-like distribution across the vessel radius (simplified Gaussian approximation)
 
-## 🔬 Key Findings
+##  Key Findings
 
 The simulation reveals:
 - Peak blood velocity occurs mid-ejection with corresponding maximum Reynolds number
@@ -164,7 +164,7 @@ The simulation reveals:
 - The PV loop traces the characteristic quadrilateral pattern of normal cardiac function
 - Blood flow exhibits significant spatial and temporal variation within the cardiac cycle
 
-## 📝 Future Enhancements
+##  Future Enhancements
 
 Potential improvements for future versions:
 
@@ -176,23 +176,23 @@ Potential improvements for future versions:
 6. **Data Export**: Save simulation results for statistical analysis
 7. **GPU Acceleration**: Use CUDA/OpenCL for real-time high-resolution simulations
 
-## 👥 Contributors
+##  Contributors
 
 - **MD24B003** (A-b29)
 - **MD24B005**
 
-## 📚 References
+##  References
 
 - Cardiac physiology: Ross, M.H., & Pawlina, W. (2006). *Histology: A Text and Atlas*
 - Cardiovascular fluid mechanics: Fung, Y.C. (1997). *Biomechanics: Circulation*
 - Blood flow dynamics: Ku, D.N. (1997). Blood flow in arteries. *Annual Review of Fluid Mechanics*
 
-## 📄 Course Information
+##  Course Information
 
 **Course**: Fluid Mechanics for Medical Scientists  
-**Institution**: Medical School  
-**Academic Year**: 2026  
-**Project Date**: March 2026
+**Institution**: Indian Institute of Technology, Madras  
+**Academic Year**: 2025  
+**Project Date**: May 2025
 
 ## 📦 License
 
